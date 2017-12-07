@@ -1,0 +1,110 @@
+
+article.article1 {
+		border: solid 1px #236192;
+		width: 95%;
+		height: 950px;
+		float: left;
+		padding: 10px;
+		margin: 5px 2px 5px 12px;
+		color: #236192;
+		background: #E8F4FE;
+		overflow: scroll;
+}
+
+article.article1 h2 {
+		clear: both;
+		font-weight: bold;
+		font-family: soundersfc, sans-serif;
+		font-size: 2.5em;
+		color: #236192;
+		text-shadow: 2px .5px #1D252D;
+		text-align: center;
+		margin: 15px 0px 15px 5px;
+}
+
+article.article1 h3 {
+		font-weight: bold;
+		font-family: soundersfc, sans-serif;
+		font-size: 2em;
+		color: #236192;
+		text-shadow: 2px .5px #1D252D;
+		text-align: center;
+		margin: 15px 0px 20px 5px;
+}
+
+article.article1 h4 {
+		font-weight: bold;
+		font-family: soundersfc, sans-serif;
+		font-size: 1em;
+		color: #236192;
+		text-align: left;
+		margin: 25px 0px 10px 25px;
+}
+
+article.article1 p {
+		margin: 7px 10px;
+		font-size: .9em;
+		font-family: 'Roboto', sans-serif;
+		padding-left: 10px;
+}
+
+article.article1 ul li {
+		font-size: .8em;
+		list-style: circle;
+		margin-bottom: 7px;
+		font-style: italic;
+		margin-right: 50px;
+}
+
+article.article1 img {
+		display: inline-block;
+		border: solid 1px black;
+		margin: 5px 10px 5px 2px;
+}
+
+img#illustratorProject {
+		width: 55%;
+		height: auto;
+		float: right;
+		border: none;
+		margin-right: 20px;
+		margin-bottom: 10px;
+		padding-right: 15px;
+}
+
+.float-right {
+		float: right;
+		margin: 0 20px 10px 5px;
+}
+
+.float-left {
+		float: left;
+		margin: 10px 10px 10px 0;
+}
+
+body.subarticles div.left-image p {
+		width: 285px;
+		clear: both;
+}
+article.article1 ul {
+		list-style-type: none;
+		margin-left: 25px;
+		padding: 0;
+}
+
+article.article1 ul li {
+		list-style-type: none;
+		margin-left: 25px;
+		padding: 0;
+}
+
+article.article1 a:link {
+		text-decoration: none;
+		color: #F9FCFE;
+		width: 45%;
+}
+		
+/*Sounder Blue – Pantone = 647C, hex=#236192 RBG=35, 97, 146
+Rave Green – Pantone=370C, hex=#658D1B, RGB=101, 141, 27
+Cascade Shale – Pantone-433C, hex=#1D252D, RGB=29, 37, 45
+Contrasting whitish color to Cascade Shale - #E8F4FE, lighter - #F4FAFE & still lighter - #F9FCFE*/

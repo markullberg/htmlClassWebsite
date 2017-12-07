@@ -1,0 +1,146 @@
+
+.lightBackground {
+	background-color: #1D252D;
+	-ms-background-color: #1D252D;
+}
+
+@keyframes fadeIn {
+	0% {opacity: 0;}
+	50% {opacity: 0;}
+	100% {opacity: 1;}
+}
+
+div#box {
+	background: #1D252D;
+	position: relative;
+	text-align: center;
+	width: 700px;
+	height: 1000px;
+		/* set height to 1000px when able to add bio info */
+	margin: 5px auto;
+	overflow: hidden;
+	border: 10px solid white;
+	box-shadow: #131313 0px 2px 10px;
+	animation-name: fadeIn;
+	animation-duration: 1.5s;
+	animation-iteration-count: 1;
+	animation-delay: 0s;
+}
+
+ul#slider {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	width: 700px;
+	height: 550px;
+	overflow: hidden;
+}
+
+ul#thumbs {
+	/*border: 2px solid pink;*/
+	overflow: auto;
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+	background-color: #1D252D;
+	width: 700px;
+}
+
+ul#thumbs a {
+	width: 60px;
+	height: 60px;
+	display: block;
+	overflow: visible;
+	float: right;
+	margin: 5px .5px 5px .5px;
+	opacity: .55;
+	transition: opacity .2s ease-in-out;
+}
+
+ul#thumbs a:hover {opacity:1;}	
+
+ul#slider li {
+	width: 800px;
+	height: auto;
+	position: absolute;
+}
+
+ul#slider p {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	z-index: inherit;
+	color: #F9FCFE;
+	background-color: rgba(29, 37, 45,.6);
+	width: 100%;
+	margin-left: 0px;
+	padding-left: 0px;
+	font-size: 1.7em;
+	font-family: soundersfc, sans-serif;
+	text-align: center;
+}
+
+ul#slider li p span {
+	line-height: 1.5em;
+	padding: 0px;
+	display: block;
+	margin: 0px 0px 0 -100px;
+}
+
+/*ul#slider p.bio {
+	border: dashed yellow 1px;
+	text-align: left;
+	color: white;
+	/*font-family: 'Montserrat', sans-serif;*/
+	/*font-family: soundersMLS, sans-serif;
+	font-size: 1.2em;
+	width: 90%;
+	height: 300px;
+	overflow: scroll;
+	position: relative;
+}*/
+
+@keyframes moveIt {
+	0% {left: 0px;}
+	50% {left: 800px;}
+	100% {
+		left: -800px;
+		z-index: 5;
+	}
+}
+
+@keyframes moveTarget {
+	0% {left: -800px;}
+	100% {left: 0px;}
+}
+
+ul#slider li:target {
+	animation-name: moveTarget;
+	animation-duration: .5s;
+	animation-iteration-count: 1;
+	top: 0;
+	left: 0;
+	z-index: 10;
+}
+
+ul#slider li:not(:target) {
+	animation-name: moveIt;
+	animation-duration: 1.5s;
+	animation-iteration-count: 1;
+	top: 0px;
+	left: 0px;
+}
+
+.player-bio {
+	display: none;
+	text-size: 1em;
+}
+
+				
+/*
+Sounder Blue – Pantone = 647C, hex=236192 RBG=35, 97, 146
+Rave Green – Pantone=370C, hex=658D1B, RGB=101, 141, 27
+Cascade Shale – Pantone-433C, hex=1D252D, RGB=29, 37, 45
+Contrasting whitish color to Cascade Shale - #E8F4FE, lighter - #F4FAFE & still lighter - #F9FCFE
+RGBA – rgba(##,##,##,.5) last value is transparency value between 0-1.
+*/

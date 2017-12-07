@@ -1,0 +1,532 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,400i,500,500i,700|Roboto:400,400i,500,500i,700');
+
+@font-face {
+			font-family:soundersfc;
+			src: url(../fonts/MLS.ttf);
+}
+@font-face {
+			font-family:soundersMLS;
+			src: url(../fonts/mls-2015.ttf);
+}
+
+body {
+		background: rgba(29,37,45,1);
+		font-family: 'Roboto', sans-serif;
+		color: #236192;	
+}
+
+div#wrapper {
+		/*border: solid 5px #236192;*/
+		width: 900px;
+		margin: 0px auto;
+		overflow: visible;
+}
+
+header {
+		/*border: dashed 1px yellow;*/
+		height: 240px;
+		position: relative;
+		background: #1D252D;
+}
+
+#logoLeft	{
+		float: left;
+		width: 100px;
+		height: 150px;
+		margin: 20px 0 0 10px;
+}
+
+#logoRight	{
+		float: right;
+		width: 100px;	
+		height: 150px;
+		margin: 20px 10px 0 0;
+}
+
+.clear {
+		clear: both;
+}
+
+#seattleSoundersFC {
+	width: 600px;
+	display: block;
+	margin-bottom: 125px;
+	margin-left: 75px;
+	padding: 10px 25px 0px 35px;
+}
+
+header h1 {
+		font-family: 'Montserrat', sans-serif;
+		color: rgb(35,97,146);
+		/*color: white;*/
+		font-size: 3em;
+		display: block;
+		height: 75px;
+		width: 100%;
+		margin-top: -135px;
+		text-align: center;
+		text-shadow: 1px 1px #E8F4FE;
+}
+
+nav {
+		width: 880px;
+		position: absolute;
+		top: 0px;
+		padding: 5px;
+}
+
+nav ul {
+		display: block;
+		list-style: none;
+ 		text-align: center;
+		padding: 5px;
+		margin: 5px;
+}
+
+nav ul li {
+		font-family: 'Montserrat', sans-serif;
+		font-size: .8em;
+		line-height: 30px;
+		color: #658D1B;
+		padding: 0 10px 0 10px;
+		display: inline-block;
+		width: 160px;
+		margin-top: 180px;
+		font-weight: bold;
+		/*font-style: italic;*/
+}
+
+nav ul li a:link {
+		background-color: #658D1B;
+		text-decoration: none;
+		display: block;
+		transition: .5s background-color;
+		width: 160px;
+		border: 3px solid #236192;
+}
+
+nav ul li a:hover {
+		background: #236192;
+		color: #1D252D;
+}
+
+nav ul li a:visited {
+		color: #F9FCFE;
+}
+main {
+		/*border: solid 5px green;*/
+		padding: 0px;
+		margin: 1px;
+		overflow: auto;
+		background: #F9FCFE;
+}
+
+		/* Article 3: Sounders History */
+main article.article3 {
+		/*font-family: 'Montserrat', sans-serif;*/
+		font-family: 'Roboto', sans-serif;
+		color: #236192;
+		overflow: hidden;
+		border: solid .5px #1D252D;
+		width: 96%;
+		height: 345px;
+		float: left;
+		padding: 5px;
+		margin: 5px 5px 5px 12px;
+		color: #E8F4FE;
+		text-align: center;
+		background: #236192;
+}
+
+main article.article3 h2 {
+		font-family: soundersfc, sans-serif;
+		font-size: 3em;
+		line-height: 50px;
+		text-align: center;
+		display: block;	
+		color: #F9FCFE;
+		padding-top: 0px;
+		text-shadow: 5px 3px #000;
+		margin-top: -72px;
+}
+	
+main article.article3 p {
+		margin: 0px 50px 10px 50px;
+		font-size: 1.3em;
+		text-align: center;
+		color: #F9FCFE;
+		padding: 0px;
+		display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+
+main article.article3 img {
+		display: inline;
+		width: 99%;
+		margin-top: 2px;
+		margin-left: 2px;
+}
+
+main article.article3 a {
+		text-decoration: none;
+		color: #F9FCFE;
+}
+
+main article.article3 a:link {
+		text-decoration: none;
+		color: #F9FCFE;
+}
+
+main article.article3 a:hover {
+		text-decoration: none;
+		color: #fff;
+}
+
+main article {
+		border: solid 1px #236192;
+		width: 26.6%;
+		height: 600px;
+		float: left;
+		padding: 20.5px;
+		margin: 5px 2px 5px 12px;
+		color: #236192;
+		background: #E8F4FE;
+}
+
+main article img {
+		border: solid 2px #236192;
+		display: inline-block;
+		/*margin: auto;*/
+		height: 250px;
+		width: 250px;
+		margin: -5px 3px 5px -8px;
+}
+
+main article h2 {
+		color: #1D251D;
+		display: block;
+		margin: 5px auto;
+		text-align: center;
+		position: relative;
+}
+
+main article button {
+		font-family: soundersMLS, sans-serif;
+		font-size: 1.8em;
+		border: solid 2px #1D252D;
+		color: #E8F4FE;
+		display: block;
+		/*margin: 5px auto;*/
+		text-align: center;
+		position: relative;
+		background-color: #236192;
+		width: 100%;
+}
+
+main article p {
+		font-size: 1em;
+		text-align: justify;
+}
+
+main article a {
+		text-decoration: none;
+		color: #236192;
+}
+
+main article a:link {
+		text-decoration: none;
+		color: #F9FCFE;
+}
+
+main article a:hover {
+		text-decoration: none;
+		color: #1D252D;
+}
+
+.article1 h2 {
+	
+}
+
+.article1 p {
+		text-align: left;
+		display: inline-block;
+		position: relative;
+		width: 800px;
+}
+
+		/* Article 2: Who is your favorite Sounder */
+main article.article2 {
+		border: solid 1px #1D252D;
+		width: 96%;
+		height: 230px;
+		float: left;
+		padding: 5px;
+		margin: 5px 5px 3px 12px;
+		color: #E8F4FE;
+		text-align: center;
+		/*background: #658D1B;*/
+		background: #236192;
+}
+
+main article.article2 h2 {
+		font-size: 2.7em;
+		line-height: 70px;
+		font-family: soundersfc, sans-serif;
+		color: #000;
+		text-shadow: 2px .5px #fff;
+		/*margin-bottom: -10px;*/
+		margin-bottom: 10px;
+		margin-top: 10px;
+		/*remove comments to -10px margin and delete other top/bottom margins
+			when middle h3 (bios and other tidbits) is included*/
+}
+		
+main article.article2 h3 {
+		font-family: soundersfc, sans-serif;
+		font-size: 1em;
+}
+
+main article.article2 img {
+		border: #1D252D 1px solid;
+		width: 100%;
+		margin-bottom: 0px;
+		padding-right: 0px;
+		width: 63px;
+		height: 63px;
+		margin: 0px;
+}
+
+footer {
+		clear: both;
+		background: #1D252D;
+		padding: 0 25px 0 25px;
+		margin-left: 25px;	
+}
+
+footer section {
+		width: 22%;
+		display: inline-block;
+		margin: 0 5px 0 5px;
+		padding: 2px 3px 2px 3px;
+		/*background: #1D252D;*/
+		text-align: center;
+		font-size: .65em;
+		font-weight: bold;
+		line-height: 30px;
+		/*color: #E8F4FE;*/
+}
+
+#copyright {font-size: .7em;}
+	
+footer a:link {
+		background-color: #658D1B;
+		text-decoration: none;
+		display: block;
+		transition: .5s background-color;
+		width: 160px;
+		border: 3px solid #E8F4FE;
+}
+
+footer a:hover {
+		background: #236192;
+		color: white;
+}
+
+footer a:visited {
+		color: #F9FCFE;
+}
+
+		/* Contact.html formatting */
+
+#formBox {background-color: #E8F4FE;}
+		
+		textarea {
+		color: #1D252D;
+		background: white;
+}
+
+img {
+		margin-right: 75px;
+		margin-left: -20px;
+		border: 1.5px solid #1D252D;
+		margin-top: 0px;
+		margin-bottom: -5px
+}
+
+.contactQuestions {
+		display: inline-block;
+		font-size: 1em;
+		width: 45%;
+}
+		
+.radio-inline {
+		margin: 20px;
+		font-size: 1.2em;
+}
+			
+.subgroup {
+		font-size: 1em;
+		width: 60%;
+		display: inline-block;
+}
+		
+#playergrp1 {
+		display: block;
+		position: relative;
+		width: 48%;
+		float: left;
+}
+		
+#playergrp2 {
+		width: 48%;
+		display: block;
+		float: left;
+}
+
+hr {
+		border: 0;
+		border-top: .5px solid rgba(29, 37, 45, .5);
+		margin: 5px 15px 5px 15px;
+		padding: 5px
+}
+	
+		/* The container */
+.container {
+		display: inline-block;
+		position: relative;
+		padding-left: 35px;
+		margin-right: 25px;
+		margin-bottom: 15px;
+		cursor: pointer;
+		font-family: soundersfc;
+		font-size: .9em;
+}
+
+		/* Hide the browser's default checkbox */
+.container input {
+		position: absolute;
+		opacity: 0;
+		}
+
+		/* Create a custom checkbox */
+.checkmark {
+		border: 2px solid #236192;
+		position: absolute;
+		top: -5px;
+		left: 0;
+		height: 25px;
+		width: 25px;
+		background-color: rgba(101, 141, 27, 1)
+}
+
+		/* On mouse-over, add a grey background color */
+.container:hover input ~ .checkmark {
+		background-color: rgba(35, 97, 146, 1);
+}
+
+		/* When the checkbox is checked, add a blue background */
+.container input:checked ~ .checkmark {
+		background-color: rgba(35, 97, 146, 1);
+}
+
+		/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+		content: "";
+		position: absolute;
+		display: none;
+}
+
+		/* Show the checkmark when checked */
+.container input:checked ~ .checkmark:after {
+		display: block;
+}
+		
+
+		/* Style the checkmark/indicator */
+.container .checkmark:after {
+		left: 9px;
+		top: 5px;
+		width: 5px;
+		height: 9px;
+		border: solid white;
+		border-width: 0 3px 3px 0;
+		-webkit-transform: rotate(45deg);
+		-ms-transform: rotate(45deg);
+		transform: rotate(45deg);
+}
+
+.input-center {
+		width: 35%;
+		margin: auto;
+		padding: 20px;
+}
+
+.input-buttons {
+		padding: 5px 10px;
+		margin-right: 30px;
+		border: #658D1B solid 2px;
+		background: #E8F4FE;		
+		color: #236192;
+		font-weight: bold;
+		font-size: 1em;
+}
+
+img.kasey-thumb {
+		float: left;
+		width: 12%;
+		height: auto;
+		margin: 15px;
+}
+.thumbnail:hover {
+		position:relative;
+    top:-25px;
+    left:-35px;
+    width:440px;
+    height:auto;
+    display:block;
+    z-index:999;
+}
+
+img#weather {
+		height: 180px;
+		width: auto;
+}	
+
+ul#soccer {
+		/*list-style-image: url('../images/soundersSoccerBall.jpg');*/
+		list-style: circle;	
+}
+
+img.bonfire {
+		width: 56%;
+		height: 250px;
+		margin: 15px;
+}
+
+img.cascadia {
+		width: auto;
+		height: 250px;
+		margin: 15px;
+}
+
+.tifo {
+		width: 750px;
+		height: auto;
+		margin: 5px;
+		font-size: 1.2em;
+		text-align: center;
+		font-weight: bold;
+}
+
+ul#traditions {
+		font-size: .8em;
+		list-style-type: circle;
+}	
+/*Sounder Blue – Pantone = 647C, hex=#236192 RBG=35, 97, 146
+Rave Green – Pantone=370C, hex=#658D1B, RGB=101, 141, 27
+Cascade Shale – Pantone-433C, hex=#1D252D, RGB=29, 37, 45
+Contrasting whitish color to Cascade Shale - #E8F4FE, lighter - #F4FAFE & still lighter - #F9FCFE
+RGBA – rgba(##,##,##,.5) last value is transparency value between 0-1.*/
